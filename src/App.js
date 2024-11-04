@@ -72,6 +72,8 @@ function App() {
                 <div className="letter-row"></div>
                 <div className="letter-row"></div>
                 <div className="letter-row"></div>
+                <div className="letter-row"></div>
+                <div className="letter-row"></div>
             </div>
 
             <div className="left-column">
