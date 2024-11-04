@@ -8,10 +8,9 @@ app.use(express.json());
 
 app.post('/analyze-sentiment', async (req, res) => {
     try {
-        // Логируем входные данные
+        
         console.log("Got text for analysis:", req.body.text);
 
-        // Отправляем запрос к внешнему API
         const response = await axios.post(
             'http://text-processing.com/api/sentiment/',
             new URLSearchParams({ text: req.body.text })
