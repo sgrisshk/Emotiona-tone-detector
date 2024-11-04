@@ -30,7 +30,7 @@ function App() {
 
         try {
             const response = await axios.post(
-                '/.netlify/functions/proxy',
+                'http://localhost:5001/analyze-sentiment',
                 { text: inputText },
                 { headers: { 'Content-Type': 'application/json' } }
             );
