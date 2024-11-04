@@ -82,3 +82,10 @@ To test the API separately, you can use the following command:
 curl -X POST -H "Content-Type: application/json" -d '{"text":"happy"}' http://localhost:5001/analyze-sentiment
 ```
 This should return a JSON object with the label of the emotional tone.
+
+## Additional Links
+
+[Layout design](https://www.figma.com/design/iF3ucODqkiCmhnuKGG1ugp/Emotional-tone-detector?node-id=0-1&node-type=canvas&t=hfQZZuZ0Dyf2oCIZ-0)
+
+[GitHub repository](https://github.com/sgrisshk/Emotional-tone-detector)
+
