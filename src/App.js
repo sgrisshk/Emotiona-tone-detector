@@ -30,7 +30,7 @@ function App() {
 
         try {
             const response = await axios.post(
-                '/api/proxy',
+                '/.netlify/functions/proxy',
                 { text: inputText },
                 { headers: { 'Content-Type': 'application/json' } }
             );
