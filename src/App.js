@@ -30,7 +30,7 @@ function App() {
 
         try {
             const response = await axios.post(
-                'http://localhost:5001/analyze-sentiment',
+                '/api/proxy',
                 { text: inputText },
                 { headers: { 'Content-Type': 'application/json' } }
             );
